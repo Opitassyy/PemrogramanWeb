@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="shorcut icon"
+    href="images/Palembang.ico" type="image/x-icon">
+</head>
+<body>
+    <div>
+        <h2>Objek Wisata</h2>
+        <!-- Order list-->
+    <ol>
+        <li>JembatanAmpera</li>
+        <li>Benteng Kuto Besak</li>
+        <li>Jakabaring Sport City</li>
+    </ol>
+    <h2>Makanan Khas</h2>
+    <ol type="I">
+        <li>Pempek</li>
+        <li>Tekwan</li>
+        <li>Mie Celor</li>
+    </ol>
+    <!-- unorder list-->
+    <h2> Fasilitas Kesehatan</h2>
+    <ul>
+        <li>RS. Moh. Hatta</li>
+        <li>RS. Sriwijaya</li>
+    </ul>
+    <h2>Mall</h2>
+    <ul type = "square">
+        <li>Palembang Square</li>
+        <li>Palembang Indah Mall</li>
+    </ul>
+    </div>
+    <div>
+        <h2>Daftar Wali Kota</h2>
+        <table border = "1">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Walikota</th>
+                    <th>Foto</th>
+                    <th>Periode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ARHAMAN SYAHPUTERA</td>
+                    <td><img src="img/arhaman.jpg" width="130px"></a></td>
+                    <td><ul>
+                        <li>2020-NOW</li>
+                    </ul></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>OPITA PURWASIH</td>
+                    <td><img src="img/opita.jpg" width="130px"></a></td>
+                    <td><ul>
+                        <li>2020-NOW</li>
+                    </ul></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2>Formulir Pendaftaran Wali Kota Palembang</h2>
+        <form action="daftar.html" method="post">
+            <div>
+                Nama Lengkap <br>
+                <input type="text" name = "nama_lengkap"
+                id ="nama_lengkap" 
+                placeholder="Enter nama lengkap">
+                
+
+            </div>
+            <div>
+                Tempat Lahir <br>
+                <input type="text"
+                name="tempat_lahir"
+                id="tempat_lahir">
+            </div>
+            <div>
+                Tanggal Lahir <br>
+                <input type="date" name="tanggal_lahir" id="tanggan_lahir">
+            </div>
+            <div>
+                Jenis Kelamin <br>
+                <input type="radio" 
+                name = "jk" id="jkl"
+                value="L" checked> Laki-Laki
+                <input type="radio" name="jk" id="jkp"
+                value="p">Perempuan
+            </div>
+            <div>
+                Alamat <br>
+                <textarea cols="20" rows="2" name="alamat" id="alamat"></textarea>
+            </div>
+               <div>
+                   partai pengusung <br>
+                   <select name="partai" id="partai">
+                    <option value="PIM">partai Indonesia Maju</option>
+                    <option value = "PILSM">partai Indonesia Lebih Maju</option>
+                
+               </div>
+               <button type="submit">Daftar</button>
+               <button type="reset"></button>
+               
+        </form>
+    </div>
+</body>
+</html>

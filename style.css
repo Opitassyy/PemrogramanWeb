@@ -1,0 +1,30 @@
+
+h1 {
+    font-family: Times New Roman ;
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+table {
+    border: 1px solid red;
+}
+tr:hover {
+    background: #ffaaff;
+}
+th {
+    padding: 2px 6px;
+    border: 1px solid #0088ff;
+    background: #0088ff;
+    color: white;
+}
+td{
+    padding: 2px 6px;
+    border: 1px solid #0088ff;
+}
+
+body {
+      font-family: Courier New ;
+      background-color: cyan;
+      color: #777733;
+}
